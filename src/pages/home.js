@@ -33,7 +33,7 @@ function Home  (){
 
                                         <li className="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> ADD HOPE</a>
-                                            <div className="dropdown-menu"><a href="#">Add Hope</a>
+                                            <div className="dropdown-menu"><a href="#">Explore</a>
                                             <div className="dropdown-divider"></div>
                                             <a class="dropdown-item" href="#"></a>
                                             </div>
