@@ -1,0 +1,99 @@
+.header{
+  position: absolute;
+  z-index: 10;
+  width: 100%;   
+  
+}
+.navbar{
+  padding: 20px 0;  
+
+}
+.navbar-brand{
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #fff;
+}
+.nav-item{
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-item.nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active.nav-link{
+  background: #262626;
+  color: #fff;
+   background-color: #366486;
+}
+.navbar-light .navbar-nav .nav-item .active.nav-link{
+  color: #262626;
+  padding: 5px 15px;
+
+
+}
+.banner{
+  position: relative;
+  background-image: url('./images/children-817365_1920.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+
+}
+.banner h2{
+  margin: 0;
+  padding: 0;
+  font-size: 2,8em;
+  color:  #366486;
+  font-weight: 1000;
+  font-size: solid;
+  
+}
+.banner p{
+  margin:  1em 0 0;
+  padding: 0;
+  font-size: 1.2em;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  
+
+}
+.btnD1{
+  display: inline-block;
+  margin: 1em 0 0;
+  background: #366486;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 800;
+}
+.btnD1:hover{
+  
+  text-decoration: none;
+  background: #366486;
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.02);
+  transform: all 0.5s ease 0s;
+  -webkit-transition:all 0.5s ease 0s;
+}
+.navbar-light .navbar-toggler-icon{
+  border: none;
+  color: #fff;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+  outline: none;
+}
+.navbar-collapse{
+  background: #fff;
+}
+@media(max-width:768px )
+{
+.banner{
+    padding: 200px 0;
+   
+}
+.banner h2{
+    font-size: 1.8em;
+}
+}
